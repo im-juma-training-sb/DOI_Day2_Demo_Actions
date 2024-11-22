@@ -2,8 +2,8 @@ name: CI BUILD for Docker Action
 
 on:
   push:
-    branches: [ main]
-    paths: [ hello-wolrd-docker-action/**]
+    branches: [ main ]
+    paths: [ hello-wolrd-docker-action/** ]
   workflow_dispatch:
 
 jobs:
